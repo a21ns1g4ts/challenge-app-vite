@@ -10,8 +10,11 @@ export const useAppStore = defineStore('app', {
   // could also be defined as
   // state: () => ({ count: 0 })
   actions: {
-    increment() {
+    inc() {
       this.count++
     },
+    dec() {
+      this.count--
+    }
   },
 })

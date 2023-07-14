@@ -6,7 +6,7 @@
     size="x-large"
     target="_blank"
     variant="flat"
-    @click="counter.increment()"
+    @click="counter.inc()"
   >
     <v-icon icon="mdi-speedometer" size="large" start />
 
